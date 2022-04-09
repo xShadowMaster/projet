@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive ecommerce website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">TEMNAkids</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a class="fas fa-shopping-cart" id="cart-icon"></a>
+        <div class="cart">
+            <h2 class="cart-title">Your Team</h2>
+            <div class="cart-content">
+               
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <button type="button" class="btn-buy">Buy Now</button>
+            <i class="fa-duotone fa-x" id="close-cart"></i>
+            
+        </div>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>Crazy Giraffe</span>
+                <h3>Giraffe Sancou7</h3>
+                <p>Maset bahloul vareb Ifalem Yeser i7eb lebnet ou zarafet elli atwel menou</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="img/s4.png" class="shoe" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>Pumkins</span>
+                <h3>PumKins Brothers</h3>
+                <p>mayghorekch yetkalmou ou sou7ab machakel ifadlkou barcha ou 5aybin</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="img/s2.png" class="shoe" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>White Bunny</span>
+                <h3>BaBy Rabbit</h3>
+                <p>Blida Barcha Tnagneg barcha t7eb la3b oul hija yesser ou t7eb el 7alwa</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="img/s11.png" class="shoe" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+        <div class="box product-box">
+            <div class="icons">
+                <a class="fas fa-heart add-cart"></a>
+                <a class="fas fa-share add-cart"></a>
+                <a class="fas fa-eye add-cart"></a>
+            </div>
+            <img src="img/s16.png" alt="" class="product-img">
+            <div class="content">
+                <h3 class="product-title">5edma Bnina</h3>
+                <div class="price">$120.99 <span>$150.99</span></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Sel3a</span> Jdida </h1>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="big-image">
+                <img src="img/s13.png" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>9ofa</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>kanek hazez 9fof Tanja7lek ou ken t7eb tebda ka 9afef bahyetlek</p>
+            <div class="price">$10 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="big-image">
+                <img src="img/s12.png" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Giraffe Tabou</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>5ou Rkik Le5er ama 5ir menou kenek galeg ou t7eb 7aja tayer biha leglag hava bahilek</p>
+            <div class="price">$90 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="big-image">
+                <img src="img/s10.png" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Bag</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>kanek 9afefa o5ti Ou t7eb 3ala 7aja tsa3dek Havi Bahyetlek</p>
+            <div class="price">$80.99 <span>$120.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>Contact Us</h3>
+        <p>kan t7eb 7aja special lik enti ab3thelna email ou nchalah njawbouk</p>
+        <form action="">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <a href="#">Sou9 Bab el Falla</a>
+            <a href="#">Sou9 Sedria</a>
+            <a href="#">Sou9 el halfa win</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">featured</a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my orders</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="main.js"></script>
+    
+</body>
+</html>
